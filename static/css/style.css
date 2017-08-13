@@ -1,0 +1,39 @@
+body{
+  font-family:  sans-serif;
+  font-weight: lighter;
+  background-color: #f6f6f6;
+  color: #333;
+  margin: 20px;
+}
+article{
+  margin: 0 auto;
+  max-width: 960px;
+}
+video{
+  widh: 100%;
+}
+.button{
+		margin: 10px 5px;
+	}
+
+/*filebutton*/
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}

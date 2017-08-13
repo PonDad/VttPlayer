@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>VttPlayer</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <article>
+      <video id="video" controls width="100%" poster="./static/img/thumbnail.png">
+        <source src="">
+        <track label="English" kind="subtitles" src="" srclang="ja" default></track>
+      </video>
+      <br>
+      <span class=
+    "btn btn-default btn-file button">
+    Choose Video File <input id="video_file" type="file"></span>
+      <span class=
+    "btn btn-default btn-file button">
+    Choose Vtt File <input id="vtt_file" type="file"></span>
+    </article>
+    <script>
+     window.jQuery = window.$ = require('./static/js/jquery.js')
+    </script>
+    <script>
+     require('./static/js/renderer.js')
+    </script>
+</body>
+
+</html>
